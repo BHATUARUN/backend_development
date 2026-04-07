@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<listeners>
+	<listener class-name="com.testngex.topstech.FbTestListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testngex.topstech.FbTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
